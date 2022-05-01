@@ -42,7 +42,7 @@
 
     }}>
         <h1 class="flames">FLAMES</h1>
-        <p>Relationship between <span>{data.name}</span> and <span>{data.partner}</span> is {data.relationship}</p>
+        <p>Relationship between <span style="color:red; font-weight:400">{data.name}</span> and <span  style="color:red; font-weight:400">{data.partner}</span> is <span  style="color:blue; font-weight:400;display:block">{data.relationship}</span></p>
     </Modal>
 {/if}
 

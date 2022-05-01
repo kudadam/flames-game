@@ -29,7 +29,7 @@
     </div>
     <div id="buttons-container">
         <a sveltekit:prefetch href="/new" class="button">New</a>
-        <button>About</button>
+        <a class="button" href="https://www.kudadam.com/blog/the-flames-game">About</a>
 
     </div>
 </main>
