@@ -12,4 +12,4 @@ ghpages.publish(
         },
         dotfiles: true
     }
-)
+)   

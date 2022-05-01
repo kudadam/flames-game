@@ -6,8 +6,7 @@ const config = {
 		adapter: adapter({
 			pages: "docs",
 			assets: "docs",
-			fallback: null,
-			precompress: true
+			fallback: "index.html"
 		}),
 		// Override http methods in the Todo forms
 		methodOverride: {
