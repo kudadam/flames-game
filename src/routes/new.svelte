@@ -6,7 +6,7 @@
     const meta = {
         title: "FLAMES GAME ⬤ Relationship Calculator",
         description: "The FLAMES game is a game which is usually played by kids, it can determine the relationship between two people with the use of their names.",
-        canonical: "https://kudadam.github.io/flames-game/new"
+        canonical: "https://flames-game.netlify.app/new"
     }
 
     $: formReady = false;
@@ -42,7 +42,7 @@
 
     }}>
         <h1 class="flames">FLAMES</h1>
-        <p>Relationship between <span style="color:red; font-weight:400">{data.name}</span> and <span  style="color:red; font-weight:400">{data.partner}</span> is <span  style="color:blue; font-weight:400;display:block">{data.relationship}</span></p>
+        <h3 style="text-align: center; font-weight:bolder">{data.relationship}</h3>
     </Modal>
 {/if}
 

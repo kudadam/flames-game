@@ -5,7 +5,7 @@
     const meta = {
         title: "FLAMES GAME ⬤ Home",
         description: "The best website where you can play the flames love game online",
-        canonical: "https://kudadam.github.io/flames-game"
+        canonical: "https://flames-game.netlify.app"
 
     }
 </script>
