@@ -1,5 +1,6 @@
 <footer>
     <p>Made by <a href="https://www.kudadam.com">Lucretius Biah</a></p>
+    <p><a href="https://www.github.com/kudadam/flames-game">Github</a></p>
     <p></p>
 </footer>
 
@@ -10,5 +11,10 @@
         background: black;
         color: white;
         padding: 5px 0px;
+    }
+
+    a {
+        text-decoration: underline;
+        color: unset;
     }
 </style>

@@ -21,7 +21,22 @@ button, .button {
     color: white;
     padding: 15px 60px;
     border-radius: 5px;
+    box-shadow: 5px 5px black;
     width: 100%;
+}
+
+button:active, .button:active {
+    transform: translateY(4px);
+    box-shadow: unset;
+}
+
+body::-webkit-scrollbar {
+    background-color: black;
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--primary-color)
 }
 
 

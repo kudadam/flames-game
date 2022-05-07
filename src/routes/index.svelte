@@ -5,7 +5,8 @@
     const meta = {
         title: "FLAMES GAME ⬤ Home",
         description: "The best website where you can play the flames love game online",
-        canonical: "https://flames-game.netlify.app"
+        canonical: "https://flames-game.netlify.app",
+        keywords: "flames, flames love game, flames love, flames game, flames lovers game"
 
     }
 </script>
@@ -14,7 +15,8 @@
  title = "{meta.title}"
  description = "{meta.description}"
  canonical = {meta.canonical}
-
+ keywords = {meta.keywords}
+ 
  openGraph = {{
      title: `${meta.title}`,
      description: `${meta.description}`,
