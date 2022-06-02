@@ -22,7 +22,10 @@
      description: `${meta.description}`,
      url: `${meta.canonical}`
  }}
-/>
+>
+
+<meta name="google-site-verification" content="-AKcJ597nZ6UCEiGKAa9kgtjnYlHQsIc6L1vSUGWkuM" />
+</Head>
 
 
 <main>
